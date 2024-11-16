@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Navbar Start */
+
+#mycolor{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+/* Navbar Logo */
+#Healthcare-logo {
+    height: 60px;
+}
+
+/* Navbar Brand Name */
+#my-navbar-brand {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+#my-navbar-brand:hover {
+    color: #0f67b1;
+}
+
+/* my navbar ul list */
+
+#my-ul-list {
+    margin: auto;
+    color: #2d5598;
+    font-weight: bolder;
+}
+
+.nav-ul {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-ul:hover {
+    color: #131415;
+}
+
+/* Login & register Button */
+
+#my-btn1 {
+    border: 1px solid blue;
+    color: blue;
+    text-transform: capitalize;
+    transition: all 2s;
+}
+
+#my-btn2 {
+    color: white;
+    text-transform: capitalize;
+    background-color: #0f67b1;
+    transition: all 2s;
+}
+
+#my-btn1:hover {
+    transform: scale(1.2);
+}
+
+#my-btn2:hover {
+    transform: scale(1.2);
+}
+
+/* Navbar End */
+
+/* Big heading start */
+
+.big-heading {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+}
+
+.big-heading span{
+    font-family: "Playfair Display", serif;
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #2f3645;
+}
+
+
+/* Big heading End */
+
+
+/* section one Text & Picture --> */
+
+
+.section-one {
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-text {
+    /* background-color: white; */
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.section-para {
+    /* background-color: black; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.section-para p {
+    color: #0f67b1;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+
+#my-btn{
+    color: #0f67b1;
+    text-transform: capitalize;
+    font-family: "Playfair Display", serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#my-btn:hover {
+    color: white;
+}
+
+.section-image {
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 50%;
+}
+
+.section-one-picture {
+    height: 100%;
+    width: 100%;
+}
+
+/* section one Text & Picture --> */
+
+
+/* Section Two Video */ 
+
+.section-two{
+    background-color: aqua;
+    height: 70vh;
+    width: 100%;
+}
+
+.section-two-video video{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Big heading Media Quire */
+
+@media only screen and (max-width: 400px) {
+    .big-heading span {
+        font-family: "Playfair Display", serif;
+        font-size: 3rem;
+        font-weight: bolder;
+        color: #2f3645;
+    }
+}
+
+
+/* Section one  Media Quire */
+
+@media only screen and (max-width: 768px) {
+    .section-one {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-text {
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .section-image {
+        height: 100%;
+        width: 100%;
+    }
+
+}
