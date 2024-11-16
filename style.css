@@ -21,6 +21,8 @@
 /* Navbar Brand Name */
 #my-navbar-brand {
     margin-top: 10px;
+    position: relative;
+    right: 20px;
     font-family: "DM Sans", sans-serif;
     font-size: 1.5rem;
     color: black;
