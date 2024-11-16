@@ -8,7 +8,7 @@
 /* Navbar Start */
 
 #mycolor{
-    background-color: white;
+    background-color: white !important;
     position: sticky;
     top: 0px;
 }
@@ -20,6 +20,7 @@
 
 /* Navbar Brand Name */
 #my-navbar-brand {
+    margin-top: 10px;
     font-family: "DM Sans", sans-serif;
     font-size: 1.5rem;
     color: black;
@@ -33,6 +34,7 @@
 
 #my-ul-list {
     margin: auto;
+    margin-top: 0px;
     color: #2d5598;
     font-weight: bolder;
 }

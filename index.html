@@ -24,54 +24,64 @@
         rel="stylesheet">
 
     <!-- Titlle -->
-    <title>HealthCare Home</title>
+    <title>PureHealth Home</title>
 </head>
 
 <body>
     <!-- Navbar Start -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="mycolor">
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary" id="mycolor">
 
         <div class="container-fluid">
 
-            <!-- /* Navbar Logo */ -->
-            <a href="#">
-                <img src="images/Health-Care Logo.png" alt="Health Care Logo" id="Healthcare-logo">
+            <!-- Navbar brand -->
+
+            <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                <img src="images/Health-Care Logo.png" height="60" alt="Builder-image" loading="lazy" />
             </a>
 
-            <!-- Navbar Brand name -->
-            <a class="navbar-brand" href="#" id="my-navbar-brand">HealthCare</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <h3 id="my-navbar-brand">Pure Health</h3>
+
+            <!-- Toggle button -->
+            <button data-mdb-collapse-init class="navbar-toggler" type="button"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
             </button>
-            <!-- Navbar UL List -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav" id="my-ul-list">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- UL LIST -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="my-ul-list">
                     <li class="nav-item">
-                        <a class="nav-ul active" aria-current="page" href="#">Home</a>
+                        <a class="nav-ul" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-ul active" href="#">Exercises</a>
+                        <a class="nav-ul" href="#">Exercises</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-ul active" href="#">Diet Food</a>
+                        <a class="nav-ul" href="#">Diet Food</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-ul active" aria-disabled="true">About Us</a>
+                        <a class="nav-ul" href="#">About Us</a>
                     </li>
                 </ul>
-                <!-- Login & register Buttons -->
+                <!-- UL LIST -->
+
+
+                 <!-- Login & register Button  -->
                 <div>
                     <button type="button" id="my-btn1" class="btn btn-light me-1">Login</button>
                     <button type="button" id="my-btn2" class="btn btn-primary me-1">Register</button>
                 </div>
+
             </div>
+
         </div>
+
     </nav>
 
     <!-- Navbar End -->
-
 
     <!-- Big Heading -->
 
@@ -96,26 +106,28 @@
 
         <div class="section-image">
             <div>
-                <img class="section-one-picture" src="images/istockphoto-957688670-612x612-removebg-preview.png" alt="Builder-image">
+                <img class="section-one-picture" src="images/istockphoto-957688670-612x612-removebg-preview.png"
+                    alt="Builder-image">
             </div>
         </div>
     </section>
 
 
-<!-- Section 2 Video -->
+    <!-- Section 2 Video -->
 
-<section class="section-two">
-       <div>
-        <div class="section-two-video">
-            <div>
-                <video autoplay muted loop >
-                    <source src="https://health-care-hub.netlify.app/assets/videos/bodybuilding.mp4" type="video/mp4">
-                </video>
+    <section class="section-two">
+        <div>
+            <div class="section-two-video">
+                <div>
+                    <video autoplay muted loop>
+                        <source src="https://health-care-hub.netlify.app/assets/videos/bodybuilding.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
             </div>
         </div>
-       </div>
-</section>
-  
+    </section>
+
 
 
 
